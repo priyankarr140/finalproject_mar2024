@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Automation.Batch3FinalProject.Listener1"/>
+  </listeners>
+  <test thread-count="2" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="Automation.Batch3FinalProject.LoginTest">
+        <methods>
+          <include name="navigation"/>
+        </methods>
+      </class> <!-- Automation.Batch3FinalProject.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
